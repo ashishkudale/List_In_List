@@ -56,8 +56,8 @@ public class SubjectAdapter extends RecyclerView.Adapter<SubjectAdapter.ViewHold
         public ViewHolder(View itemView) {
             super(itemView);
 
-            recyclerView = (RecyclerView) itemView.findViewById(R.id.rvItems);
-            tvHeading = (TextView) itemView.findViewById(R.id.tvHeading);
+            recyclerView = (RecyclerView) itemView.findViewById(R.id.rvChapters);
+            tvHeading = (TextView) itemView.findViewById(R.id.tvSubjectName);
         }
     }
 }

@@ -6,21 +6,21 @@
 
     <LinearLayout
         android:orientation="vertical"
-        android:background="@color/white"
+        android:background="#FFFFFF"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginBottom="15dp">
 
         <TextView
-            android:id="@+id/tvHeading"
+            android:id="@+id/tvSubjectName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="3dp"
+            android:layout_margin="8dp"
             android:textSize="18sp"
-            android:textColor="#000" />
+            android:textColor="#000000" />
 
         <android.support.v7.widget.RecyclerView
-            android:id="@+id/rvItems"
+            android:id="@+id/rvChapters"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 

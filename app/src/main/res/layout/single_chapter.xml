@@ -14,28 +14,26 @@
 
         <LinearLayout
             android:orientation="vertical"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_margin="2dp">
 
             <ImageView
                 android:layout_width="100dp"
                 android:layout_height="80dp"
                 android:id="@+id/ivChapter"
-                android:src="@mipmap/ic_launcher"
                 android:layout_margin="10dp" />
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Product Name"
-                android:singleLine="true"
-                android:ellipsize="end"
                 android:id="@+id/tvChapterName"
-                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp" />
+                android:layout_marginTop="5dp"
+                android:ellipsize="end"
+                android:singleLine="true" />
 
         </LinearLayout>
 
